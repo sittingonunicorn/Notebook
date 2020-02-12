@@ -1,3 +1,7 @@
+/**
+ * Package contains methods and fields to control input data and to provide the association of View and Model.
+ */
+
 package controller;
 
 import model.Model;
@@ -5,8 +9,17 @@ import view.View;
 
 import java.util.Scanner;
 
+/**
+ * Class provides association of Model and View classes.
+ */
 public class Controller implements regExes {
+    /**
+     * Model instance.
+     */
     private Model model;
+    /**
+     * View instance.
+     */
     private View view;
 
     public Controller(Model model, View view) {
